@@ -11,7 +11,7 @@ const forceSSL = function(){
         next();
     }
 }
-app.use(express.static(__dirname + "/dist/spacex"));
+app.use(express.static(__dirname + "/dist/travelapp"));
 app.get("/*", function (req,res){
     res.sendFile(path.join(__dirname + "/dist/travelapp/index.html"));
 });
