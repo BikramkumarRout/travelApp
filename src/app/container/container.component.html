@@ -1,0 +1,139 @@
+<div class="row first-section">
+    <div id="img">
+    </div>
+    <div class="col1">
+        <h1>Amazing Place to Travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maxime.</p>
+        <button>Explore More</button>
+    </div>
+</div>
+
+<div class="second-section">
+    <div class="header-section">
+        <div class="custom-title">
+            <h2>Beautiful Place of the World</h2>
+        </div>
+        <div class="custom-btn"><button id="bt" (click)="viewAll()">View All</button></div>
+    </div>
+    <div class="body-section">
+        <div *ngFor="let item of resource | slice:0:count">
+            <span class="ad"><img height="350px" width="300px" [src]="item.image" /></span>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <div class="third-section">
+        <div class="header-section">
+            <div>
+                <h2>Most Popular Tours For You </h2>
+            </div>
+        </div>
+
+        <div class="flex ml1">
+            <mat-card class="example-card" *ngFor="let item of resource | slice:0:3">
+                <!--  -->
+                <img class="custom" mat-card-image [src]="item.image" alt="Photo of Tours">
+                <mat-card-header>
+
+                    <mat-card-title>{{item.title}}</mat-card-title>
+
+                </mat-card-header>
+
+                <mat-card-content>
+                    <div class="card-content">
+                        <span class="ad"><i class="fa fa-clock-o"></i>{{item.days}}</span>
+                        <span class="ad"><i class="fa fa-user"></i>{{item.count}}</span>
+                        <span class="ad"><i class="fa fa-dollar"></i>{{item.price}}</span>
+
+                    </div>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button class="card-button" mat-button>Book Now</button>
+                </mat-card-actions>
+            </mat-card>
+
+        </div>
+        <div class="custom-btn"><button id="btn2" (click)="viewAll()">View All</button></div>
+    </div>
+</div>
+<div class="corousel-section">
+    <h1 class="coursel-header">What Our Client Says</h1>
+
+    <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="primary" maxWidth="auto"
+        proportion="25" slides="5" [loop]="true" [hideArrows]="false" [hideIndicators]="false" [useKeyboard]="true"
+        [useMouseWheel]="false" orientation="ltr">
+        <mat-carousel-slide #matCarouselSlide *ngFor="let slide of resource; let i = index" overlayColor="#00000040"
+            [hideOverlay]="false">
+            <div class="corousel-content">
+                <mat-card class="corousel-card">
+                    <mat-card-content>
+                        <p class="caurousl-text">
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting
+                            
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting
+                        </p>
+                    </mat-card-content>
+                    <mat-card-header class="custom-header">
+                        <div mat-card-avatar class="example-header-image"></div>
+                        <mat-card-title>Shiba Inu</mat-card-title>
+                        <mat-card-subtitle class="subtitle">Dog Breed</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </div>
+
+        </mat-carousel-slide>
+    </mat-carousel>
+</div>
+<div id="fourth-section">
+    <div class="third-section">
+        <div class="header-section">
+            <div>
+                <h2>Our Latest Blog About Tour </h2>
+            </div>
+        </div>
+
+        <div class="flex ml">
+           
+            <mat-card class="example-card" *ngFor="let item of resource | slice:0:4">
+                <img class="custom" mat-card-image [src]="item.image" alt="Photo of a Shiba Inu">
+
+                <mat-card-content>
+                    <h3 class="text">{{item.description}}</h3>
+                    <p>
+                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                        Japan.
+                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                        originally
+                        bred for hunting.
+                    </p>
+                </mat-card-content>
+
+            </mat-card>
+
+        </div>
+        <div class="custom-btn"><button id="btn2" (click)="viewAll()">View All</button></div>
+    </div>
+</div>

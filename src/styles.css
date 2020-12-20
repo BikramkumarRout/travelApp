@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.custom-title{
+    margin-left: 3%;
+    width: 50%;
+}
+.custom-btn{
+    width: 50%;
+}
+
+.mat-form-field{
+    display: block !important;
+}
+.mat-form-field-wrapper{
+    padding-bottom: 0 !important;
+    margin:0 !important;
+}
+.mat-form-field-flex{
+    padding: 0 !important;
+}
+/* .mat-form-field-infix{
+    padding: 0 !important;
+    display: flex !important;
+} */
+
+.flex{
+    display: flex;
+}
+.carousel-slide-content{
+    width: 100%;
+    height: 100%;
+}
+
+

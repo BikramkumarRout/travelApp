@@ -1,0 +1,42 @@
+<div class="filter-main">
+  <form class="filter" [formGroup]="form">
+    <mat-form-field style="text-align: center"appearance="outline" color="accent">
+      <mat-label >Places</mat-label>
+      <mat-select formControlName="place">
+        <mat-option value="puri">Puri</mat-option>
+        <mat-option value="ayodhya">Ayodhya</mat-option>
+        <mat-option value="kedarnath">Kedarnath</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <!-- <mat-form-field appearance="outline" color="accent" class="example-form-field">
+      <mat-label>Member</mat-label>
+      <input type="number" matInput [placeholder]="count" [value]="count" formControlName="member">
+      <span matSuffix><button (click)="counter('plus')">+</button>&nbsp;</span>
+      <span matSuffix><button (click)="counter('minus')">-</button>&nbsp;</span>
+
+    </mat-form-field> -->
+    <mat-form-field appearance="outline">
+      
+      <input matInput placeholder="count" [value]="count" formControlName="member">
+      <span matSuffix><button (click)="counter('plus')">+</button>&nbsp;</span>
+      <span matSuffix><button (click)="counter('minus')">-</button>&nbsp;</span>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Choose a date</mat-label>
+      <input matInput [matDatepicker]="picker" formControlName="fromdate">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Choose a date</mat-label>
+      <input matInput [matDatepicker]="picker1" formControlName="todate">
+      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+      <mat-datepicker #picker1></mat-datepicker>
+    </mat-form-field>
+    <div>
+      <button mat-raised-button color="primary" class="custom-btn" id="bookbtn" (click)="bookNow()">
+        Book Now</button>
+    </div>
+  </form>
+</div>

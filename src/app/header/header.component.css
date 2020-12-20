@@ -1,0 +1,60 @@
+.wrapper{
+ background-image: url("../../assets/1.jpg");
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+}
+.navbar {
+    justify-content: space-between;
+    color: white;
+    background: transparent;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 302%;
+    font-weight: bold;
+    font-family: math;
+}
+
+.logo{
+    margin-left: 3%;
+    font-size: 174% !important;
+    font-weight: bold;
+    font-family: math;
+}
+span{
+    padding-right: 1rem;
+}
+.book{
+    color:blue;
+    background: white;
+    height: 39px;
+    border-radius: 11px;
+    width: 100px;
+    font-size: bold;
+    font-weight: bold;
+    font-size: 15px;
+    border: white;
+}
+.d{
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 250px;
+}
+.d1{
+    width: 18%;
+    margin-top: 6%;
+    padding: 2%;
+    background-color: blue;
+    color: #ffff;
+
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 182%;
+    height: 0% !important;
+    border-radius: 23px;
+}

@@ -1,0 +1,37 @@
+.filter{
+    border: 2px 2px 2px lightblue;
+    border-radius: 10px;
+    width: 83%;
+    background-color: aliceblue;
+    padding: 40px;
+    margin-left: 100px;
+    display: flex;
+    margin-top: -7%;
+}
+button{
+    height: 33px;
+    width: 37px;
+    padding: 15%;
+}
+.filter-main{
+     padding:3%;
+}
+.mat-form-field{
+    padding-right: 2%;
+}
+.custom-btn{
+    height: max-content;
+    top: 15%;
+}
+.mat-form-field-infix {
+    padding: 16px !important;
+    display: flex !important;
+   
+
+}
+#bookbtn{
+    width: 145%;
+    /* padding-right: 25%; */
+    height: 86%;
+    border-radius: 10px;
+}

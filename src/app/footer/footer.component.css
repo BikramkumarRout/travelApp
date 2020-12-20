@@ -1,0 +1,53 @@
+.wrap{
+    background-color: blue;
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+}
+.touch{
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 6%;
+}
+span{
+    margin-right: 29px;
+}
+.footer{
+    display: flex;
+     height: 50px;
+      justify-content: center;
+      align-items: center;
+}
+#subbtn{
+    display: contents;
+    
+}
+.email{
+    border: 2px solid white;
+    border-radius: 18px;
+    color:black;
+    width: 34%;
+    background-color: white;
+    margin-left: 32%;
+    height: 60px;
+}
+.subscribe-btn{
+    background-color: blue;
+    padding: 2%;
+    margin-top: -6%;
+    width: 30%;
+    color: white;
+    
+    margin-bottom: 3%;
+    border-radius: 64px;
+    display: flex;
+    justify-content: center;
+    margin-left: 69%;
+}
+.mat-form-field-infix{
+    padding: 0 !important;
+    display: flex !important;
+}

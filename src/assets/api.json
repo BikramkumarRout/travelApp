@@ -1,0 +1,56 @@
+[
+    {
+        "image": "../assets/5.jpg",
+        "title": "lorem1",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    },
+    {
+        "image": "../assets/5.jpg",
+        "title": "lorem3",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    },
+    {
+        "image": "../assets/6.jpg",
+        "title": "lorem3",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    },
+    {
+        "image": "../assets/6.jpg",
+        "title": "lorem3",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    },
+    {
+        "image": "../assets/6.jpg",
+        "title": "lorem3",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    },
+    {
+        "image": "../assets/6.jpg",
+        "title": "lorem3",
+        "description": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "moredescription": "lorem8lorem8lorem8lorem8lorem8lorem8lorem8",
+        "days": "04",
+        "count": "02",
+        "price": "200$"
+    }
+]

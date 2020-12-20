@@ -1,0 +1,21 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-origin: 2px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25%;
+}
+span{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}

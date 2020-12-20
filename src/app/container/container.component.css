@@ -1,0 +1,172 @@
+#img{
+    background-image: url("../../assets/2.jpg");
+    width: 50%;
+    border: solid transparent;
+    border-radius: 20px 80px 50px 10px;
+    background-size: cover;
+}
+.col1{
+    width: 50%;
+    padding: 2%;
+}
+.card-main:hover{
+    background-color: blue;
+}
+.card-button{
+    margin-left: 22% !important;
+    color: black;
+    width: 34%;
+    border: solid blue;
+    background-color: white
+}
+i{
+    padding-right: 2%;
+}
+
+button{
+    bottom: 0;
+    padding: 2%;
+    font-weight: bold;
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+.second-section{
+    padding-bottom: 2%;
+
+}
+#btn2{
+    margin-left: 86% !important;
+    margin-top: 8%;
+    color: white;
+    background-color: blue;
+}
+
+#bt{
+    float: right;
+    margin-right: 16%;
+}
+#bt1{
+    float: right;
+    color:white;
+    background-color: blue;
+    margin-top: -45% !important;
+    width: 21%;
+}
+
+.body-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 53% 0%;
+    grid-gap: 3px;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.third-section{
+    padding-top: 5%;
+}
+
+.ml{
+    margin-left: 2%;
+}
+.custom{
+    height: 70%;
+    background-size: cover;
+    width: 112%;
+    border-radius: 10px;
+}
+.ng-star-inserted{
+    margin: 2% 2% 2% 2%;
+}
+.row{
+    display: flex;
+    padding: 45px;
+    margin: 46px;
+}
+.ml{
+    margin-left: 5%;
+}
+.ml1{
+    margin-left: 15% ;
+}
+.btn{
+    width: 50%;
+}
+.ad{
+    margin: 9%;
+}
+.card-main{
+    padding: 2%;
+}
+.example-card {
+    max-width: 400px;
+  }
+  .corousel-card{
+      width: 100%;
+      height: 100%;
+  }
+#bt{
+    bottom: 0;
+    padding: 2%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.padding{
+    padding-top:0 !important;
+}
+.example-card {
+    max-width: 270px;
+    margin-right: 2%;
+  }
+  .example-card:hover{
+      background-color: blue;
+      color: white;
+  }
+  .coursel-header{
+      text-align: center;
+      justify-content: center;
+      font-size: 50px;
+      padding-bottom: 4%;
+      padding-top: 2%;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .text{
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+  .row{
+    margin-top: 5%; 
+  }
+  .corousel-content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 1%;
+    background-size: cover;
+    height: 89%;
+    border: 5px solid blue;
+    border-radius: 1%;
+  }
+  .caurousl-text{
+      font-weight: bold;
+  }
+  .custom-header{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subtitle{
+    margin-left: 10px;
+  }
