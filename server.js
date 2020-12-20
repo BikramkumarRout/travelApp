@@ -11,8 +11,8 @@ const forceSSL = function(){
         next();
     }
 }
-app.use(express.static(__dirname + "/dist/travelapp"));
+app.use(express.static(__dirname + "/dist/travelApp"));
 app.get("/*", function (req,res){
-    res.sendFile(path.join(__dirname + "/dist/travelapp/index.html"));
+    res.sendFile(path.join(__dirname + "/dist/travelApp/index.html"));
 });
 app.listen(process.env.PORT || 8080);
