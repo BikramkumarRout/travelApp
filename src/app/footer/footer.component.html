@@ -3,8 +3,9 @@
     <h1>Get In Touch</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum magnam magni .</p>
     <div class="email">
-      <mat-form-field  id="#subbtn" class="example-full-width">
-        <input type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"matInput placeholder="Enter your email address" required>
+      <mat-form-field id="#subbtn" class="example-full-width">
+        <input #email type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" matInput
+          placeholder="Enter your email address" required>
         <button class="subscribe-btn" mat-button color="accent" (click)="subscribe()">Subscribe</button>
       </mat-form-field>
     </div>
