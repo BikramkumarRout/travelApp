@@ -10,9 +10,6 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { BannerComponent } from './banner/banner.component';
-import { WidgetComponent } from './widget/widget.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
 import { FilterComponent } from './filter/filter.component';
 import { BookingComponent } from './booking/booking.component';
@@ -24,9 +21,6 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     HeaderComponent,
     ContainerComponent,
     FooterComponent,
-    NavigationComponent,
-    BannerComponent,
-    WidgetComponent,
     WrapperComponent,
     FilterComponent,
     BookingComponent
